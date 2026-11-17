@@ -1,6 +1,6 @@
 import warnings
 warnings.filterwarnings("ignore")
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 from google import genai
 
 load_dotenv()
