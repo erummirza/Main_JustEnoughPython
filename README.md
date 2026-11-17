@@ -54,9 +54,7 @@ Executes the function that searches for the .env file in the project folder also
 Specifi AI MOdel bassed on grok
 ### client = Groq()
 initialize Groq  API Client
-### resp = client.chat.completions.create(
-    model=MODEL,
-    messages=[{"role": "user", "content": "Explain tokens in one sentence."}]
+### resp = client.chat.completions.create(model=MODEL,messages=[{"role": "user", "content": "Explain tokens in one sentence."}]
 )
 
 Send the request to AI model based on model specific as mentioned  ,define the role aas user and send prommpt Explain tokens in one sentence.
